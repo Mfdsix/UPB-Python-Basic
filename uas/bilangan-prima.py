@@ -12,5 +12,6 @@ def cekPrima(number):
     return True
 
 print("----------------------- MENCARI BILANGAN PRIMA -----------------------")
+print("--- Range ", start, "sampai", end)
 for number in range(start, end):
-    print(number, "PRIMA" if cekPrima(number) else "-")
+    print(number, "PRIMA" if cekPrima(number) else "x")
